@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Toggle from './components/Toggle';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +21,12 @@ function App() {
           Hello World
         </a>
       </header>
+
+      <div className="App-content">
+        <Toggle name="/ping" url="/ping"/>
+        <Toggle name="/hero" url="/hero"/>
+        <Toggle name="/hello" url="/hello"/>
+      </div>
     </div>
   );
 }

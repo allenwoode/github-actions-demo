@@ -8,6 +8,7 @@
     "react-scripts": "5.x"
   },
   "homepage": "https://allenwoode.github.io/github-actions-demo",
+  "proxy": "http://localhost:8080",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
