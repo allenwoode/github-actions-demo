@@ -7,7 +7,7 @@
     "react-dom": "^16.9.0",
     "react-scripts": "5.x"
   },
-  "homepage": "https://ruanyf.github.io/github-actions-demo",
+  "homepage": "https://allenwoode.github.io/github-actions-demo",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
