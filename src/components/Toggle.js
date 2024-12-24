@@ -20,7 +20,11 @@ class Toggle extends React.Component {
 
     handleRequest() {
         //console.log('request url:', this.state.url);
-        fetch(this.state.url)
+        fetch(this.state.url, {
+            method: 'GET',
+            body: '{"name": "大力", "address": "中华人民共和国"}',
+            param: {name: "张三"}
+        })
             .then(res => res.text())
             .then(text => {
                 console.log('text:', text)

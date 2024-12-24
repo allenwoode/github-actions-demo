@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Toggle from './components/Toggle';
+import SearchBar from './components/SearchBar';
 
 function App() {
 
@@ -23,9 +24,8 @@ function App() {
       </header>
 
       <div className="App-content">
-        <Toggle name="/ping" url="/ping"/>
-        <Toggle name="/hero" url="/hero"/>
         <Toggle name="/hello" url="/hello"/>
+        <SearchBar name="张三"/>
       </div>
     </div>
   );
